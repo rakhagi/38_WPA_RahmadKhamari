@@ -1,7 +1,7 @@
 <template>
   <nav class="navbar navbar-expand-lg navbar-light">
     <div class="container-fluid fixed-top bg-light border">
-      <img class="ikon-navbar" alt="ox" src="https://st2.depositphotos.com/33928496/47712/v/450/depositphotos_477121454-stock-illustration-logo-monogram-slice-rounded-modern.jpg?forcejpeg=true"/>
+      <a href="#"><img class="ikon-navbar" alt="ox" src="https://st2.depositphotos.com/33928496/47712/v/450/depositphotos_477121454-stock-illustration-logo-monogram-slice-rounded-modern.jpg?forcejpeg=true"/></a>
       <a class="navbar-brand" style="margin-left: -600px" href="#">OX Studio</a>
       <button
         class="navbar-toggler"
@@ -19,16 +19,16 @@
       <div class="collapse navbar-collapse" id="navbarSupportedContent">
         <ul class="navbar-nav ml-auto">
           <li class="nav-item active">
-            <a class="nav-link" href="#">Home</a>
+           <div class="nav-link" style="text-decoration: none"><router-link to="/"> Home </router-link></div>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">About</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">Our Works</a>
+            <div class="nav-link"><router-link to="/ourworks"> Ourworks </router-link></div>
           </li>
           <li class="nav-item">
             <a class="nav-link" href="#">Testimoni</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">About Us</a>
           </li>
           <li class="nav-item">
             <a class="nav-link" href="#">Contact Us</a>

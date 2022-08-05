@@ -1,22 +1,44 @@
 <template>
-  <navigationBar />
-  <h1>Our Product</h1>
-  <p>We constantly innovate to develop creative ideas for new functions, shapes and decorations for the Product. Continuous refinement of our products and process makes Flower Bouquet a form of Gifts that are high-quality, innovative, and Creative.</p>
-  <karousel />  
-  <footerComp/>
+<navigationBar />
+<router-view/>
+  <!--<Banner />
+  <ourWorks/>
+  <karousel-flower/>
+  <karousel-picnic/>
+  <karousel-wedding/>
+  <testimonials />
+  <aboutUs /> -->
+  
+  <footer id="footer">
+    <div class="container-fluid" style="background-color: #eaeaea">
+      <div class="copyright">
+        &copy; Copyright <strong><span>OX Studio 2022</span></strong>. All Rights Reserved
+      </div>
+    </div>
+  </footer>
 </template>
 
 <script>
-import navigationBar from "./components/navigationBar.vue";
-import karousel from "./components/carouselComponen.vue";
-import footerComp from "./components/footerComp.vue"
+import navigationBar from "./components/navigationBar.vue"; 
+//import Banner from "./components/homeBanner.vue";
+//import ourWorks from "./components/ourWorks.vue";
+//import KarouselFlower from "./components/KarouselFlower.vue";
+//import KarouselPicnic from "./components/KarouselPicnic.vue";
+//import KarouselWedding from "./components/KarouselWedding.vue";
+//import testimonials from "./components/testiMonials.vue";
+//import aboutUs from "./components/aboutUs.vue";
 
 export default {
   name: "App",
   components: {
     navigationBar,
-    karousel,
-    footerComp,
+    //KarouselFlower,
+    //KarouselPicnic,
+    //KarouselWedding,
+    //Banner,
+    //testimonials,
+    //aboutUs,
+    //ourWorks,
   },
 };
 </script>
@@ -30,19 +52,11 @@ export default {
   color: #2c3e50;
 }
 
-ul {
-  margin: 5px;
-}
-
-.gambar {
-  margin-top: 90px;
-}
-
 .ikon-navbar {
   width: 80px;
   height: 80px;
   border: 1px;
-  border-radius: 120px;
+  border-radius: 120px; 
 }
 
 .navbar-brand {
@@ -61,9 +75,14 @@ h1 {
 }
 
 body {
-background-color: #eaeaea;
+  background-color: #eaeaea;
 }
 
-
-
+a:hover{
+  background-color: #2c3e50;
+  border-radius: 10px;
+}
+a.router-link-active {
+  background-color: blueviolet ;
+}
 </style>
