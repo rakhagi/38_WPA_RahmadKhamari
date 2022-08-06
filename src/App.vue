@@ -56,7 +56,7 @@ export default {
   width: 80px;
   height: 80px;
   border: 1px;
-  border-radius: 120px; 
+  border-radius: 1px; 
 }
 
 .navbar-brand {
@@ -77,12 +77,16 @@ h1 {
 body {
   background-color: #eaeaea;
 }
-
+a {
+  text-decoration: none;
+  color: #2c3e50
+}
 a:hover{
-  background-color: #2c3e50;
-  border-radius: 10px;
+  color: #2c3e50; 
+
 }
 a.router-link-active {
-  background-color: blueviolet ;
+  border-bottom: 2px solid gray;
+  color: black;
 }
 </style>

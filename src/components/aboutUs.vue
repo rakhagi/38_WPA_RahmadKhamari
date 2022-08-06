@@ -1,5 +1,5 @@
 <template>
-      <section id="about" class="about mt-2">
+      <section id="about" class="about" style="margin-top: 80px">
       <div class="container">
 
         <div class="section-title">
@@ -26,14 +26,22 @@
         </div>
 
       </div>
-    </section><!-- End About Us Section -->
+    </section>
 
-    <!-- ======= Contact Us Section ======= -->
+
     <section id="contact" class="contact">
       <div class="container">
 
         <div class="section-title">
-          <h2>Contact Us</h2>
+          <div class="row">
+            <div class="col-6">
+          <h2 class="">Visit our location</h2>
+            </div>
+             <div class="col-6">
+          <h2 class="">Leave us a Message</h2>
+            </div>
+          </div>
+          
         </div>
 
         <div class="row">
