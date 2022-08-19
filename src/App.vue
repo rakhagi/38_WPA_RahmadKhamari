@@ -1,14 +1,6 @@
 <template>
 <navigationBar />
 <router-view/>
-  <!--<Banner />
-  <ourWorks/>
-  <karousel-flower/>
-  <karousel-picnic/>
-  <karousel-wedding/>
-  <testimonials />
-  <aboutUs /> -->
-  
   <footer id="footer">
     <div class="container-fluid" style="background-color: #eaeaea">
       <div class="copyright">
@@ -53,10 +45,10 @@ export default {
 }
 
 .ikon-navbar {
-  width: 80px;
-  height: 80px;
+  width: 60px;
+  height: 60px;
   border: 1px;
-  border-radius: 1px; 
+  border-radius: 100px; 
 }
 
 .navbar-brand {
@@ -82,11 +74,11 @@ a {
   color: #2c3e50
 }
 a:hover{
-  color: #2c3e50; 
+  color: #5cc6db; 
 
 }
 a.router-link-active {
-  border-bottom: 2px solid gray;
+  border-bottom: 2px solid grey;
   color: black;
 }
 </style>
