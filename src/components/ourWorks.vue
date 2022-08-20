@@ -28,7 +28,7 @@
       </div>
       <div class="col">
         <div class="container">
-          <h2>Flower Bouquet</h2>
+          <h2>Soulshine Ox</h2>
           <p>
             Lorem ipsum dolor sit amet, consectetur adipisicing elit. Et quis,
             corporis quas vel optio veniam consequatur natus sequi quibusdam
@@ -69,7 +69,7 @@
       </div>
       <div class="col">
         <div class="container">
-          <h2>Wedding Decorations</h2>
+          <h2>Voeux Ox</h2>
           <p>
             Lorem ipsum dolor sit amet, consectetur adipisicing elit. Et quis,
             corporis quas vel optio veniam consequatur natus sequi quibusdam
@@ -110,7 +110,7 @@
       </div>
       <div class="col">
         <div class="container">
-          <h2>Picnic Set Rental and Services</h2>
+          <h2>Summer Date Ox</h2>
           <p>
             Lorem ipsum dolor sit amet, consectetur adipisicing elit. Et quis,
             corporis quas vel optio veniam consequatur natus sequi quibusdam

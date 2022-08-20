@@ -1,6 +1,6 @@
 <template>
   <nav class="navbar navbar-expand-lg navbar-light">
-    <div class="container-fluid fixed-top bg-light border" style="height: 65px;">
+    <div class="container-fluid fixed-top bg-light border" style="height: 65px">
       <a href="http://localhost:8080"
         ><img
           class="ikon-navbar"
@@ -49,7 +49,39 @@
               >
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">Contact Us</a>
+              <div class="dropdown">
+                <button
+                  class="btn btn-secondary dropdown-toggle"
+                  type="button"
+                  id="dropdownMenuButton1"
+                  data-bs-toggle="dropdown"
+                  aria-expanded="false"
+                >
+                  Contact Us
+                </button>
+                <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+                  <li>
+                    <a
+                      class="dropdown-item"
+                      target="_blank"
+                      href="https://api.whatsapp.com/send?phone=6285731112797&text=Hai%20kak Diana...%20saya%20tertarik%20untuk%20memesan%20sesuatu...."
+                      ><img
+                        src="https://seeklogo.com/images/W/whatsapp-icon-logo-BDC0A8063B-seeklogo.com.png"
+                        style="width: 19px; height 19px; margin: 5px"
+                      />Admin 1</a
+                    >
+                  </li>
+                  <li>
+                    <a class="dropdown-item"  target="_blank"
+                      href="https://api.whatsapp.com/send?phone=628970660647&text=Hai%20kak Lia...%20saya%20tertarik%20untuk%20memesan%20sesuatu...."
+                      ><img
+                        src="https://seeklogo.com/images/W/whatsapp-icon-logo-BDC0A8063B-seeklogo.com.png"
+                        style="width: 19px; height 19px; margin: 5px"
+                      />Admin 2</a
+                    >
+                  </li>
+                </ul>
+              </div>
             </li>
           </ul>
         </div>

@@ -2,7 +2,7 @@
 <navigationBar />
 <router-view/>
   <footer id="footer">
-    <div class="container-fluid" style="background-color: #eaeaea">
+    <div class="container-fluid" style="background-color: #e6e8df">
       <div class="copyright">
         &copy; Copyright <strong><span>OX Studio 2022</span></strong>. All Rights Reserved
       </div>
@@ -67,14 +67,14 @@ h1 {
 }
 
 body {
-  background-color: #eaeaea;
+  background-color: #e6e8df;
 }
 a {
   text-decoration: none;
   color: #2c3e50
 }
 a:hover{
-  color: #5cc6db; 
+  color:black; 
 
 }
 a.router-link-active {
