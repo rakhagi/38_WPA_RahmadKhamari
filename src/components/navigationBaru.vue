@@ -1,7 +1,7 @@
 <template>
   <nav class="navbar navbar-expand-lg bg-light fixed-top">
   <div class="container">
-    <img src="@/assets/logo1.png" width="40px">
+    <img src="@/assets/logo1.png" width="40">
     <a class="navbar-brand mx-2" href="#">OX Studio</a>
     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
