@@ -1,5 +1,8 @@
 # soulshine-ox
 
+Ini adalah website Tugas Mini-Project Saya sebagai Syarat Kelulusan Kelas "Junior Web Programming" dari Alterra Academy yang bekerja sama dengan Work In Tech Indonesia
+dengan Materi HTML,CSS, Javascript,Bootstrap dan Vue.js
+
 ## Project setup
 ```
 npm install
